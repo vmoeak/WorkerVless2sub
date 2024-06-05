@@ -24,7 +24,7 @@ let addressesnotls = [
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/vmoeak/ip/main/ip.txt?token=GHSAT0AAAAAACTIA3MKH56GIYDJF3YHQLLIZTAVAYQ', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 2;//速度下限
