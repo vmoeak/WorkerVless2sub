@@ -27,10 +27,10 @@ let addressesnotlsapi = [
 	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
-let DLS = 8;//速度下限
+let DLS = 2;//速度下限
 let addressescsv = [
 	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
-	'https://raw.githubusercontent.com/vmoeak/ip/main/45102-1717344633.csv?token=GHSAT0AAAAAACSGK2JPEFUM33HEHZDVVPF4ZS4TZOQ'
+	'https://raw.githubusercontent.com/vmoeak/ip/main/IP.csv?token=GHSAT0AAAAAACTIA3MLT2NBNPVFU3GRLTJ4ZTAUTUQ'
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
