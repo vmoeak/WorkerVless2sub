@@ -29,7 +29,7 @@ let addressesnotlsapi = [
 
 let DLS = 2;//速度下限
 let addressescsv = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
+	// 'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
 	'https://raw.githubusercontent.com/vmoeak/ip/main/IP.csv?token=GHSAT0AAAAAACTIA3MLT2NBNPVFU3GRLTJ4ZTAUTUQ'
 ];
 
