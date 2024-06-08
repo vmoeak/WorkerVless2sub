@@ -31,8 +31,8 @@ let DLS = 8;//速度下限
 let addressescsv = [
 	// 'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
 	// 'https://raw.githubusercontent.com/vmoeak/ip/main/IP.csv?token=GHSAT0AAAAAACTIA3MLT2NBNPVFU3GRLTJ4ZTAUTUQ'
-	// 'https://raw.githubusercontent.com/vmoeak/WorkerVless2sub/main/45102-20240606-IP.csv',
-	// 'https://raw.githubusercontent.com/vmoeak/WorkerVless2sub/main/8075-20240608-IP.csv',
+	'https://raw.githubusercontent.com/vmoeak/WorkerVless2sub/main/45102-20240606-IP.csv',
+	'https://raw.githubusercontent.com/vmoeak/WorkerVless2sub/main/8075-20240608-IP.csv',
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
@@ -625,8 +625,10 @@ export default {
 
 			}).join('\n');
 			
-			let combinedContent = responseBody; // 合并内容
-			
+			let combinedContent = ''; // 合并内容
+			if (responseBody && noTLS == 'false') {
+        combinedContent += responseBody;
+      }
 			if (link) {
 				combinedContent += '\n' + link;
 				console.log("link: " + link)
